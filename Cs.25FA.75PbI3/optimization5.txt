@@ -1,0 +1,3 @@
+experimental bond length:
+solid energy: -311.72 eV
+bondlength              :  6.40 Ang
