@@ -1,0 +1,3 @@
+experimental bond length:
+hydrogen molecule energy: -298.68 eV
+bondlength              :  6.40 Ang
