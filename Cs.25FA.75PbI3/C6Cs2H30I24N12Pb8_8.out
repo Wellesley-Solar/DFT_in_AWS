@@ -5,17 +5,17 @@
  |__ |  _|___|_____|  20.10.0
  |___|_|             
 
-User:   qdeng@qdeng
-Date:   Sun Oct 25 19:50:43 2020
+User:   ubuntu@ip-172-31-33-15
+Date:   Mon Oct 26 05:21:04 2020
 Arch:   x86_64
-Pid:    474
+Pid:    1556
 Python: 3.8.3
-gpaw:   /home/qdeng/anaconda3/lib/python3.8/site-packages/gpaw
-_gpaw:  /home/qdeng/anaconda3/lib/python3.8/site-packages/
+gpaw:   /home/ubuntu/anaconda3/lib/python3.8/site-packages/gpaw
+_gpaw:  /home/ubuntu/anaconda3/lib/python3.8/site-packages/
         _gpaw.cpython-38-x86_64-linux-gnu.so
-ase:    /home/qdeng/anaconda3/lib/python3.8/site-packages/ase (version 3.20.1)
-numpy:  /home/qdeng/anaconda3/lib/python3.8/site-packages/numpy (version 1.18.5)
-scipy:  /home/qdeng/anaconda3/lib/python3.8/site-packages/scipy (version 1.5.0)
+ase:    /home/ubuntu/anaconda3/lib/python3.8/site-packages/ase (version 3.20.1)
+numpy:  /home/ubuntu/anaconda3/lib/python3.8/site-packages/numpy (version 1.18.5)
+scipy:  /home/ubuntu/anaconda3/lib/python3.8/site-packages/scipy (version 1.5.0)
 libxc:  3.0.0
 units:  Angstrom and eV
 cores: 4
@@ -48,7 +48,7 @@ C-setup:
   valence: 4
   core: 2
   charge: 0.0
-  file: /home/qdeng/.gpaw/gpaw-setups-0.9.20000/C.PBE.gz
+  file: /home/ubuntu/gpaw_dataset/gpaw-setups-0.9.20000/C.PBE.gz
   compensation charges: gauss, rc=0.20, lmax=2
   cutoffs: 1.14(filt), 1.14(core),
   valence states:
@@ -68,7 +68,7 @@ Cs-setup:
   valence: 9
   core: 46
   charge: 0.0
-  file: /home/qdeng/.gpaw/gpaw-setups-0.9.20000/Cs.PBE.gz
+  file: /home/ubuntu/gpaw_dataset/gpaw-setups-0.9.20000/Cs.PBE.gz
   compensation charges: gauss, rc=0.33, lmax=2
   cutoffs: 2.06(filt), 2.51(core),
   valence states:
@@ -88,7 +88,7 @@ H-setup:
   valence: 1
   core: 0
   charge: 0.0
-  file: /home/qdeng/.gpaw/gpaw-setups-0.9.20000/H.PBE.gz
+  file: /home/ubuntu/gpaw_dataset/gpaw-setups-0.9.20000/H.PBE.gz
   compensation charges: gauss, rc=0.15, lmax=2
   cutoffs: 0.85(filt), 0.53(core),
   valence states:
@@ -106,7 +106,7 @@ I-setup:
   valence: 7
   core: 46
   charge: 0.0
-  file: /home/qdeng/.gpaw/gpaw-setups-0.9.20000/I.PBE.gz
+  file: /home/ubuntu/gpaw_dataset/gpaw-setups-0.9.20000/I.PBE.gz
   compensation charges: gauss, rc=0.37, lmax=2
   cutoffs: 2.06(filt), 2.90(core),
   valence states:
@@ -126,7 +126,7 @@ N-setup:
   valence: 5
   core: 2
   charge: 0.0
-  file: /home/qdeng/.gpaw/gpaw-setups-0.9.20000/N.PBE.gz
+  file: /home/ubuntu/gpaw_dataset/gpaw-setups-0.9.20000/N.PBE.gz
   compensation charges: gauss, rc=0.18, lmax=2
   cutoffs: 1.11(filt), 0.96(core),
   valence states:
@@ -146,7 +146,7 @@ Pb-setup:
   valence: 14
   core: 68
   charge: 0.0
-  file: /home/qdeng/.gpaw/gpaw-setups-0.9.20000/Pb.PBE.gz
+  file: /home/ubuntu/gpaw_dataset/gpaw-setups-0.9.20000/Pb.PBE.gz
   compensation charges: gauss, rc=0.38, lmax=2
   cutoffs: 2.36(filt), 2.43(core),
   valence states:
@@ -226,7 +226,7 @@ Hamiltonian:
 XC parameters: PBE with 2 nearest neighbor stencil
 
 Memory estimate:
-  Process memory now: 204.76 MiB
+  Process memory now: 198.21 MiB
   Calculator: 5620.54 MiB
     Density: 119.93 MiB
       Arrays: 34.84 MiB
