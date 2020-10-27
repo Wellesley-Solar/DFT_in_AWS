@@ -1,0 +1,103 @@
+
+(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ mpiexec -np 4 p[Kpython  gpaw_relax_[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbas[K[K[Knano run.sh 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 10 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                        run.sh                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[mmpiexec -np 4 python3 gpaw_relax_5.py[4dmpiexec -np 4 python3 gpaw_relax_6.py[5d[36m# mpiexec -np 4 python3 gpaw_relax_7.py[6d[39m(B[mmpiexec -np 4 python3 gpaw_relax_8.py[7dmpiexec -np 4 python3 gpaw_relax_9.py[9d[36m# mpiexec -np 4 python3 gpaw_relax_380.py[10d# mpiexec -np 4 python3 gpaw_relax_410.py[11d# mpiexec -np 4 python3 gpaw_relax_440.py[12d# mpiexec -np 4 python3 gpaw_relax_500.py[3d[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[A[?12l[?25h[?25l[23;14H             (B[0;7m^Y(B[m First Line             (B[0;7m^T(B[m Go To Text[K[24;2H(B[0;7mC(B[m Cancel[17X[24;27H(B[0;7m^V(B[m Last[40P[22d(B[0;7mEnter line number, column number:                                               [22;1H(B[m[22;35H[?12l[?25h[?25l[1K (B[0;7m[ Cancelled ](B[m[K[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[7d[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[7d[36m#mpiexec -np 4 python3 gpaw_relax_9.py#[39m(B[m[?12l[?25h[?25l[36m mpiexec -np 4 python3 gpaw_relax_9.py# [39m(B[m[?12l[?25h[?25l[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 10 lines ](B[m[7;3H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[4d[36m#mpiexec -np 4 python3 gpaw_relax_6.py#[39m(B[m[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: run.sh                                   (B[m[22;27H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 10 lines ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ ls
+C6Cs2H30I24N12Pb8_5.out  bestsqs2.out       gpaw_relax_6.py    rndstr.atat
+C6Cs2H30I24N12Pb8_6.out  bestsqs3.out       gpaw_relax_8.py    rndstrgrp.out
+C6Cs2H30I24N12Pb8_8.out  clusters.out       gpaw_relax_9.py    run.sh
+bestcorr0.out            gpaw_relax_360.py  mcsqs0.log         screenlog.0
+bestcorr1.out            gpaw_relax_380.py  mcsqs1.log         sqscell.out
+bestcorr2.out            gpaw_relax_410.py  mcsqs2.log         sym.out
+bestcorr3.out            gpaw_relax_440.py  mcsqs3.log
+bestsqs0.out             gpaw_relax_5.py    optimization.txt
+bestsqs1.out             gpaw_relax_500.py  optimization5.txt
+(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ lsnano run.sh mpiexec -np 4 python ggpaw_relax_8.py 
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+./
+./
+./
+./
+--------------------------------------------------------------------------
+[[61282,1],2]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: ip-172-31-33-15
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+[ip-172-31-33-15:01550] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-33-15:01550] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B--------------------------------------------------------------------------
+mpiexec noticed that process rank 3 with PID 0 on node ip-172-31-33-15 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ [ip-172-31-33-15:01754] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-33-15:01754] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+^[[D^[[D^[[A1log1
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+./
+./
+./
+./
+--------------------------------------------------------------------------
+[[61098,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: ip-172-31-33-15
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+[ip-172-31-33-15:01990] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-33-15:01990] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+./
+./
+./
+./
+--------------------------------------------------------------------------
+[[57838,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: ip-172-31-33-15
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+[ip-172-31-33-15:02178] 3 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-33-15:02178] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ 

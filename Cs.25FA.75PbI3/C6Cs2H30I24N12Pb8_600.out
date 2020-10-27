@@ -6,9 +6,9 @@
  |___|_|             
 
 User:   ubuntu@ip-172-31-33-15
-Date:   Mon Oct 26 04:37:02 2020
+Date:   Tue Oct 27 01:12:06 2020
 Arch:   x86_64
-Pid:    7744
+Pid:    1873
 Python: 3.8.3
 gpaw:   /home/ubuntu/anaconda3/lib/python3.8/site-packages/gpaw
 _gpaw:  /home/ubuntu/anaconda3/lib/python3.8/site-packages/
@@ -28,8 +28,8 @@ Input parameters:
                 energy: 0.0005,
                 forces: inf}
   kpts: {gamma: True,
-         size: (6, 6, 6)}
-  mode: {ecut: 340.0,
+         size: (4, 4, 4)}
+  mode: {ecut: 600.0,
          gammacentered: False,
          name: pw}
   occupations: {fixmagmom: False,
@@ -176,25 +176,25 @@ Symmetries present (total): 2
   ( 0  1  0)  ( 0  1  0)
   ( 0  0  1)  ( 0  0 -1)
 
-216 k-points: 6 x 6 x 6 Monkhorst-Pack grid + [1/12,1/12,1/12]
-80 k-points in the irreducible part of the Brillouin zone
+64 k-points: 4 x 4 x 4 Monkhorst-Pack grid + [1/8,1/8,1/8]
+30 k-points in the irreducible part of the Brillouin zone
        k-points in crystal coordinates                weights
-   0:     0.00000000    0.00000000    0.00000000          1/216
-   1:     0.00000000    0.00000000    0.16666667          2/216
-   2:     0.00000000    0.00000000    0.33333333          2/216
-   3:     0.00000000    0.00000000    0.50000000          1/216
-   4:     0.00000000    0.16666667    0.00000000          2/216
-   5:     0.00000000    0.16666667    0.16666667          4/216
-   6:     0.00000000    0.16666667    0.33333333          4/216
-   7:     0.00000000    0.16666667    0.50000000          2/216
-   8:     0.00000000    0.33333333    0.00000000          2/216
-   9:     0.00000000    0.33333333    0.16666667          4/216
+   0:     0.00000000    0.00000000    0.00000000          1/64
+   1:     0.00000000    0.00000000    0.25000000          2/64
+   2:     0.00000000    0.00000000    0.50000000          1/64
+   3:     0.00000000    0.25000000    0.00000000          2/64
+   4:     0.00000000    0.25000000    0.25000000          4/64
+   5:     0.00000000    0.25000000    0.50000000          2/64
+   6:     0.00000000    0.50000000    0.00000000          1/64
+   7:     0.00000000    0.50000000    0.25000000          2/64
+   8:     0.00000000    0.50000000    0.50000000          1/64
+   9:     0.25000000   -0.25000000    0.00000000          2/64
           ...
-  79:     0.50000000    0.50000000    0.50000000          1/216
+  29:     0.50000000    0.50000000    0.50000000          1/64
 
 Wave functions: Plane wave expansion
-  Cutoff energy: 340.000 eV
-  Number of coefficients (min, max): 29711, 29848
+  Cutoff energy: 600.000 eV
+  Number of coefficients (min, max): 69744, 69940
   Pulay-stress correction: 0.000000 eV/Ang^3 (de/decut=0.000000)
   Using FFTW library
   ScaLapack parameters: grid=1x1, blocksize=None
@@ -207,8 +207,8 @@ Eigensolver
    Davidson(niter=2, smin=None, normalize=True) 
 
 Densities:
-  Coarse grid: 56*56*56 grid
-  Fine grid: 112*112*112 grid
+  Coarse grid: 75*75*75 grid
+  Fine grid: 150*150*150 grid
   Total Charge: 0.000000 
 
 Density mixing:
@@ -219,30 +219,30 @@ Density mixing:
   Damping of long wave oscillations: 50 
 
 Hamiltonian:
-  XC and Coulomb potentials evaluated on a 112*112*112 grid
+  XC and Coulomb potentials evaluated on a 150*150*150 grid
   Using the PBE Exchange-Correlation functional
  
 
 XC parameters: PBE with 2 nearest neighbor stencil
 
 Memory estimate:
-  Process memory now: 185.05 MiB
-  Calculator: 2822.27 MiB
-    Density: 119.93 MiB
-      Arrays: 34.84 MiB
-      Localized functions: 71.70 MiB
-      Mixer: 13.40 MiB
-    Hamiltonian: 25.03 MiB
-      Arrays: 22.78 MiB
+  Process memory now: 280.68 MiB
+  Calculator: 2699.12 MiB
+    Density: 283.94 MiB
+      Arrays: 83.68 MiB
+      Localized functions: 168.07 MiB
+      Mixer: 32.19 MiB
+    Hamiltonian: 60.00 MiB
+      Arrays: 54.72 MiB
       XC: 0.00 MiB
       Poisson: 0.00 MiB
-      vbar: 2.25 MiB
-    Wavefunctions: 2677.31 MiB
-      Arrays psit_nG: 2295.44 MiB
-      Eigensolver: 126.75 MiB
-      Projections: 66.60 MiB
-      Projectors: 172.71 MiB
-      PW-descriptor: 15.81 MiB
+      vbar: 5.28 MiB
+    Wavefunctions: 2355.18 MiB
+      Arrays psit_nG: 1882.54 MiB
+      Eigensolver: 283.97 MiB
+      Projections: 23.31 MiB
+      Projectors: 141.80 MiB
+      PW-descriptor: 23.56 MiB
 
 Total number of cores used: 4
 Parallelization over k-points: 4
