@@ -222,4 +222,84 @@ btl_base_warn_component_unused to 0.
 --------------------------------------------------------------------------
 mpiexec noticed that process rank 3 with PID 0 on node ip-172-31-33-15 exited on signal 9 (Killed).
 --------------------------------------------------------------------------
-(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ 
+(base) [01;32mubuntu@ip-172-31-33-15[00m:[01;34m~/DFT_in_AWS/Cs.25FA.75PbI3[00m$ [ip-172-31-71-9:07733] 7 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-71-9:07733] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+./
+./
+./
+./
+./
+./
+./
+./
+--------------------------------------------------------------------------
+[[23525,1],4]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: ip-172-31-71-9
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+[ip-172-31-71-9:08292] 7 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-71-9:08292] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+/home/ubuntu/DFT_in_AWS/Cs.25FA.75PbI3
+/home/ubuntu/DFT_in_AWS
+./
+./
+./
+./
+./
+./
+./
+./
+--------------------------------------------------------------------------
+[[23092,1],6]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: ip-172-31-71-9
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+[ip-172-31-71-9:08629] 7 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[ip-172-31-71-9:08629] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
