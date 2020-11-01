@@ -1,0 +1,13 @@
+Reading supercells...
+Initializing random supercells...
+Initialization done.
+Objective_function= -1.933036
+Correlations_mismatch= 	-0.020833	-0.062500	0.104167	0.104167	-0.062500	-0.005208	-0.109375
+Objective_function= -1.934524
+Correlations_mismatch= 	0.062500	-0.062500	0.104167	-0.062500	-0.062500	-0.088542	0.015625
+Objective_function= -1.940476
+Correlations_mismatch= 	-0.020833	-0.020833	0.104167	-0.062500	-0.062500	0.036458	-0.109375
+Objective_function= -1.953869
+Correlations_mismatch= 	0.020833	0.020833	0.104167	-0.062500	-0.062500	0.036458	0.015625
+Objective_function= -1.958333
+Correlations_mismatch= 	-0.020833	-0.020833	0.104167	-0.062500	-0.062500	-0.005208	0.015625
