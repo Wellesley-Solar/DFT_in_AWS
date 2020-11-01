@@ -30,10 +30,10 @@ atoms = Atoms(symbols=myGpaw.symstr,
 # view(atoms)
 kpts={'size': (4, 4, 4), 'gamma': True}
 calc = GPAW(#h=0.16,
-            mode=PW(700),
+            mode=PW(900),
             kpts=kpts,
             xc='PBE',
-            txt=myGpaw.symstr+'_700.out',
+            txt=myGpaw.symstr+'_900.out',
             occupations=FermiDirac(width=0.05),
           #   nbands=-2,
             convergence={'energy': 0.0005,  # eV / electron

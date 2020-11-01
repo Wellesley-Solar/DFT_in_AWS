@@ -33,7 +33,7 @@ calc = GPAW(#h=0.16,
             mode=PW(600),
             kpts=kpts,
             xc='PBE',
-            txt=myGpaw.symstr+'_600.out',
+            txt=myGpaw.symstr+'_600_speed_test.out',
             occupations=FermiDirac(width=0.05),
           #   nbands=-2,
             convergence={'energy': 0.0005,  # eV / electron

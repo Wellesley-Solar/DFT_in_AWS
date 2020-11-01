@@ -8,5 +8,6 @@
 # mpiexec -np 4 python3 gpaw_relax_410.py
 # mpiexec -np 4 python3 gpaw_relax_440.py
 # mpiexec -np 4 python3 gpaw_relax_500.py
-mpiexec -np 4 python3 gpaw_relax_800.py
-mpiexec -np 4 python3 gpaw_relax_900.py
+mpiexec -np 8 python3 gpaw_relax_800.py
+mpiexec -np 8 python3 gpaw_relax_900.py
+mpiexec -np 8 python3 gpaw_relax_600.py
