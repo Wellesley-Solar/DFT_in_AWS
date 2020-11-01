@@ -431,7 +431,7 @@ class sqs2QE():
         else:
             self.pseudo=self.efficiency
         
-    def load_sqs(self, dirpath=".", isqs='bestsqs1.out'):
+    def load_sqs(self, dirpath=".", isqs='bestsqs0.out'):
         """
         Reads the lines in an sqs output file
         

@@ -3,6 +3,8 @@ currentdir = os.path.dirname(os.path.realpath(__file__))
 print(currentdir)
 parentdir = os.path.dirname(currentdir)
 print(parentdir)
+parentdir = os.path.dirname(parentdir)
+print(parentdir)
 sys.path.append(parentdir)
 
 from utilsDFT import *
