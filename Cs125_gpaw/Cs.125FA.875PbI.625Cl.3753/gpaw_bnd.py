@@ -8,7 +8,7 @@ from ase.visualize import view
 import pandas as pd
 from ase.io import read
 
-myGpaw = sqs2QE(False, sprcel_dim=[1.0,1.0,1.0])
+myGpaw = sqs2QE(False, sprcel_dim=[2.0,2.0,2.0])
 myGpaw.load_sqs("./", isqs="bestsqs0.out")#Cs.25FA.75PbI3")
 myGpaw.writeGPAW()
 
