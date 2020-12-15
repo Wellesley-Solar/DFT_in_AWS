@@ -16,7 +16,7 @@ for x in filter(os.path.isdir, os.listdir(os.getcwd())):
 for dir in dirs:
     print(home_path+"/"+chem_path+"/"+dir)
     os.chdir(home_path+"/"+chem_path+"/"+dir)
-    child = subprocess.Popen(["mpiexec","-np", str(p), "python3", "gpaw_relax.py"])
+    child = subprocess.Popen(["mpiexec","-np", str(p), "python3", "gpaw_bnd.py"])
     time.sleep(3)
     while child.poll() is None:
         time.sleep(10)

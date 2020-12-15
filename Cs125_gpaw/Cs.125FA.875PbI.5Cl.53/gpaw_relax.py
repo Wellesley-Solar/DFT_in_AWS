@@ -22,6 +22,7 @@ from ase.optimize import QuasiNewton
 from gpaw import GPAW, FermiDirac, PW
 from ase import Atoms
 from ase.visualize import view
+import pandas as pd
 
 
 atoms = Atoms(symbols=myGpaw.symstr,
@@ -29,42 +30,56 @@ atoms = Atoms(symbols=myGpaw.symstr,
              cell=myGpaw.gcell,
              positions=myGpaw.pos
                     )
-# view(atoms)
-kpts={'size': (4, 4, 4), 'gamma': True}
-calc = GPAW(#h=0.16,
-            mode=PW(700),
-            kpts=kpts,
-            xc='PBE',
-            txt=myGpaw.symstr+'.out',
-            occupations=FermiDirac(width=0.05),
-          #   nbands=-2,
-            convergence={'energy': 0.0005,  # eV / electron
-               'density': 1.0e-4,
-               'eigenstates': 4.0e-8,  # eV^2 / electron
-               'bands': 'CBM+2.0',
-               'forces': float('inf')}, # eV / Ang Max
-            )
+atms=atoms.get_chemical_symbols()
+poss=atoms.get_positions()
+df = pd.DataFrame(
+  {
+    "x": poss[:,0],
+    "y": poss[:,1],
+    "z": poss[:,2],
+    "atoms": atms
+  }
+)
 
-atoms.calc = calc
-e2 = atoms.get_potential_energy()
-d0 = atoms.get_distance(0, 1)
-calc.write(myGpaw.symstr+'.gpw')
+df.to_csv("pos.csv")
+# print(poss)
+# break
+view(atoms)
+# kpts={'size': (4, 4, 4), 'gamma': True}
+# calc = GPAW(#h=0.16,
+#             mode=PW(700),
+#             kpts=kpts,
+#             xc='PBE',
+#             txt=myGpaw.symstr+'.out',
+#             occupations=FermiDirac(width=0.05),
+#           #   nbands=-2,
+#             convergence={'energy': 0.0005,  # eV / electron
+#                'density': 1.0e-4,
+#                'eigenstates': 4.0e-8,  # eV^2 / electron
+#                'bands': 'CBM+2.0',
+#                'forces': float('inf')}, # eV / Ang Max
+#             )
 
-fd = open('optimization.txt', 'w')
-print('experimental bond length:', file=fd)
-print('experimental energy: %5.2f eV' % e2, file=fd)
-print('bondlength              : %5.2f Ang' % d0, file=fd)
+# atoms.calc = calc
+# e2 = atoms.get_potential_energy()
+# d0 = atoms.get_distance(0, 1)
+# calc.write(myGpaw.symstr+'.gpw')
 
-# # Find the theoretical bond length:
-relax = QuasiNewton(atoms, logfile='qn.log', trajectory=myGpaw.symstr+'.emt.traj')
-relax.run(fmax=0.05)
+# fd = open('optimization.txt', 'w')
+# print('experimental bond length:', file=fd)
+# print('experimental energy: %5.2f eV' % e2, file=fd)
+# print('bondlength              : %5.2f Ang' % d0, file=fd)
 
-e2 = atoms.get_potential_energy()
-d0 = atoms.get_distance(0, 1)
-# calc.write(myGpaw.symstr+'relax.gpw')
+# # # Find the theoretical bond length:
+# relax = QuasiNewton(atoms, logfile='qn.log', trajectory=myGpaw.symstr+'.emt.traj')
+# relax.run(fmax=0.05)
 
-print(file=fd)
-print('PBE energy minimum:', file=fd)
-print('PBE minimal energy: %5.2f eV' % e2, file=fd)
-print('bondlength              : %5.2f Ang' % d0, file=fd)
-fd.close()
+# e2 = atoms.get_potential_energy()
+# d0 = atoms.get_distance(0, 1)
+# # calc.write(myGpaw.symstr+'relax.gpw')
+
+# print(file=fd)
+# print('PBE energy minimum:', file=fd)
+# print('PBE minimal energy: %5.2f eV' % e2, file=fd)
+# print('bondlength              : %5.2f Ang' % d0, file=fd)
+# fd.close()
